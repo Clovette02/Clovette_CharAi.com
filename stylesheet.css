@@ -32,7 +32,6 @@ body {
     flex-direction: column; /* stack items vertically */
     text-align: center; /* center text inside the container */
     overflow-y: auto;
-    
 }
 .text {
     font-size: 20px;
@@ -46,7 +45,9 @@ body {
     padding-block: 4%;
     align-content: center;
     overflow: auto; /*this is used to keep h2 titles in html from disappearing*/
-    
+}
+.cube::-webkit-scrollbar {
+    width: 5px; /* Narrow scrollbar width */
 }
 .buttons{
     font-size: 140%;
