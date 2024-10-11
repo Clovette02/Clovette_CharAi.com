@@ -31,7 +31,6 @@ body {
     justify-content: center;
     flex-direction: column; /* stack items vertically */
     text-align: center; /* center text inside the container */
-    padding-top: 9%;
     overflow-y: auto;
     
 }
@@ -46,6 +45,7 @@ body {
     border: 1px solid #f0ca59e6;
     padding-block: 4%;
     align-content: center;
+    overflow: auto; /*this is used to keep h2 titles in html from disappearing*/
     
 }
 .buttons{
@@ -79,4 +79,3 @@ body {
     padding: 4%; /*this kinda puts a space-like barrier around the text*/
     word-wrap: break-word; /*this keeps the text from crossin over the texbox*/
 }
-
