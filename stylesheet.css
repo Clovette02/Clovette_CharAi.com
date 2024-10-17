@@ -80,3 +80,72 @@ body {
     padding: 4%; /*this kinda puts a space-like barrier around the text*/
     word-wrap: break-word; /*this keeps the text from crossin over the texbox*/
 }
+
+/*for pc*/
+
+@media (min-width: 1024px){
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: 20px 20px;
+        padding-block: 4%;
+        overflow: hidden;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; /* stack items vertically */
+        text-align: center; /* center text inside the container */
+        overflow-y: auto;
+    }
+    .text {
+        font-size: 20px;
+        text-align: center;
+    }
+    .cube {
+        background-color: blanchedalmond;
+        width: 620px; /* adjust the width to my liking */
+        height: 400px;
+        border: 1px solid #f0ca59e6;
+        padding-block: 4%;
+        align-content: center;
+        overflow: auto; /*this is used to keep h2 titles in html from disappearing*/
+    }
+    .cube::-webkit-scrollbar {
+        width: 5px; /* Narrow scrollbar width */
+    }
+    .buttons{
+        font-size: 140%;
+        text-decoration: none;
+        text-align: center;
+        background-color:rgb(255, 251, 230);
+        color:rgb(197, 167, 130);
+        width: 30%;
+        height: 20%;
+        border-radius: 5px;
+        display: inline-block; /* Makes the anchor behave like a button */
+        margin: 5;
+    }
+    .parahraph{
+        font-size: 10px;
+        margin: 5;
+        text-align: center;
+        
+    }
+    .textbox{
+        text-decoration:none;
+        font-size: 140%;
+        background-color:rgb(255, 251, 230); 
+        color: rgb(197, 167, 130);
+        width: 75%;
+        height: 1000%;
+        border-radius: 10px;
+        display: block;
+        margin: auto;
+        padding: 4%; /*this kinda puts a space-like barrier around the text*/
+        word-wrap: break-word; /*this keeps the text from crossin over the texbox*/
+    }
+}
+
